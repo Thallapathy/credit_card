@@ -1,0 +1,53 @@
+.card-container{
+    width: 360px;
+    height: 200px;
+    background: linear-gradient(orange,white,green);
+    
+    border-radius: 30px;
+    padding: 20px;
+    
+    }
+  
+  .card-name{
+    font-weight: 1000;
+    text-align: right;  
+  }
+  
+  .chip img{
+    width: 50px;
+    height: 50px; 
+  }
+
+  .card-no{
+    letter-spacing:10px;
+    margin-top: 10px;
+    position: relative;
+  }
+  .card-code{
+    text-align:left;
+    
+  }
+  .expire-data{
+    display:flex ;
+    flex-direction: row;
+    justify-content:space-between;
+    position: flex;
+    text-align:right;
+  }
+  
+  .expire-date{
+    margin-top: 6px;
+    text-align: center;
+  }
+  
+  .date-label{
+    font-size: 8px;
+  }
+  
+ 
+  .card-type img{
+    width: 80px;
+    height: 60px;
+    position: relative;
+  }
+  
